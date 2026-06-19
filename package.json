@@ -1,0 +1,13 @@
+{
+  "name": "mini-job-application-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full stack job application tracker for InternSathi assignment.",
+  "scripts": {
+    "install:all": "pnpm -C backend install && pnpm -C frontend install",
+    "dev:backend": "pnpm -C backend dev",
+    "dev:frontend": "pnpm -C frontend dev",
+    "build": "pnpm -C backend build && pnpm -C frontend build",
+    "test": "pnpm -C backend test"
+  }
+}
